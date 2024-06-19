@@ -14,3 +14,4 @@ class ExpenseSerializer(serializers.ModelSerializer):
             "category",
             "payment_method"
         ]
+        read_only_fields = ['id', 'user']
